@@ -13,6 +13,7 @@ public class ActivityMD02 {
 
     char[][] array = new char[4][];
     
+   //Initializ and fill the array 
     for (int i = 0; i < array.length; i++){
         array[i] =new char[i+1]; //row i has i+1 column
         for (int j = 0; j < array[i].length; j++){
